@@ -1,0 +1,138 @@
+* {
+    margin: 0px;
+}
+
+#corpo_contato {
+    height: 128vh;
+    background: linear-gradient(#36007A, black);
+}
+
+/*Barra de Navegação*/
+/*--------------------------------------------------------*/
+
+a{
+    color: white;
+}
+a :visited{
+    color: white;
+}
+
+#nav_bar {
+    border-bottom: 1px solid gray;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 26.5vh;
+    justify-content: space-between;
+}
+
+#nome {
+    margin-left: 5%;
+    font-size: 20px;
+    color: white;
+}
+
+#PCG {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    margin-right: 5%;
+    color: white;
+}
+
+.PCG_li {
+    margin-left: 100px;
+}
+
+/*Fim da Barra de Navegação*/
+
+/*--------------------------------------------------------*/
+
+/* Início do contato */
+
+#caixa_contato{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#h1_contato{
+    width: 27%;
+    height: 75px;
+    border: 1px solid white;
+    background-color: #292929;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+#ligue{
+    color: white;
+    margin-bottom: 50px;
+    font-size: 18px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#caixa_input{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 350px;
+}
+.inputs{
+    margin-bottom: 5px;
+    height: 30px;
+}
+#input_mensagem{
+    margin-bottom: 10px;
+    height: 100px;
+}
+#alinhamento_enviar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#enviar{
+    width: 40%;
+    height: 60px;
+    background-color: rgb(201, 201, 201);
+}
+
+/* Fim do contato */
+
+/*--------------------------------------------------------*/
+
+/* Início do rodapé(footer) */
+
+#footer{
+    width: 100%;
+    height: 105px;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 275px;
+}
+#contato_footer{
+    font-size: 18px;
+}
+#lista_footer{
+    display: flex;
+    list-style: none;
+}
+.margem_redes_sociais{
+    margin-right: 25px;
+}
+#caixa_follow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* Fim do rodapé(footer) */

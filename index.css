@@ -1,0 +1,270 @@
+* {
+    margin: 0px;
+}
+
+#corpo_portifolio {
+    height: 288vh;
+    background: linear-gradient(#36007A, black);
+}
+
+.dark-mode {
+    background-color: white;
+    color: black;
+  }
+/*Barra de Navegação*/
+/*--------------------------------------------------------*/
+
+a{
+    color: white;
+}
+
+a :visited{
+    color: white;
+}
+
+#nav_bar {
+    border-bottom: 1px solid gray;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 8%;
+    justify-content: space-between;
+}
+
+#nome {
+    margin-left: 5%;
+    font-size: 20px;
+    color: white;
+}
+
+#PCG {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-right: 5%;
+    color: white;
+}
+
+.PCG_li {
+    margin-left: 100px;
+}
+
+#txt_dark_mode{
+    font-size: 18px;
+    color: black;
+}
+
+/*Fim da Barra de Navegação*/
+
+/*--------------------------------------------------------*/
+
+/*Início do perfil*/
+
+#perfil {
+
+    margin-top: 5%;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#foto_perfil {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 100%;
+    border: 3px solid black;
+}
+
+#nome_atuacao {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 27px;
+}
+
+#nome_perfil {
+    font-size: 36px;
+    color: white;
+}
+
+/*Fim do perfil*/
+/*--------------------------------------------------------*/
+
+/* Início da vida profissional */
+
+#vida_profissional {
+    margin-top: 15%;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+#caixa_vida_profissional {
+    width: 70%;
+    height: 800px;
+    border: 1px solid blue;
+    color: white;
+    background-color: black;
+    display: grid;
+    grid-template-areas:
+        'vazio1 titulo_vida img1'
+        'vazio2 txt_vida vazio3'
+        'img2 link_vida vazio4'
+    ;
+}
+
+#titulo_vida {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+#caixa_img01_vida {
+    display: flex;
+    justify-content: end;
+}
+
+#img01_vida {
+    margin: 10px;
+    background-image: url(https://www.cotemig.com.br/assets/img/units/barroca-unidades.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90%;
+}
+
+#texto_vida {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+}
+
+#caixa_img02_vida {
+    display: flex;
+    justify-content: end;
+}
+
+#img02_vida {
+    margin: 10px;
+    background-image: url(1_michael_jackson___epic_records-37454700.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90%;
+}
+
+#link_habilidades_vida {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+#link{
+    color:mediumpurple;
+}
+
+/* Fim da vida profissional */
+
+/*--------------------------------------------------------*/
+
+/* Início dos Projetos */
+
+#alinhamento_secao_projetos{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#secao_projetos{
+    display: grid;
+    grid-template-areas: 
+    'projeto01 projeto02'
+    'projeto03 projeto04'
+    ;
+
+    color: white;
+    gap: 0px;
+    width: 70%;
+    height: 1200px;
+    margin-top: 15%;
+    font-size: 24px;
+    justify-content: space-between;
+}
+
+#img_projeto01{
+    margin-top: 25px;
+    border: 1px solid white;
+    width: 500px;
+    height: 300px;
+    background-image: url(Print_sitedelivery\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#img_projeto02{
+    margin-top: 25px;
+    border: 1px solid gray;
+    width: 500px;
+    height: 300px;
+    background-image: url(Captura\ de\ tela\ Elit\ Photo\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#img_projeto03{
+    margin-top: 25px;
+    border: 3px solid gray;
+    width: 500px;
+    height: 300px;
+    background-image: url(Captura\ de\ tela\ Ogani\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#img_projeto04{
+    margin-top: 25px;
+    border: 1px solid white;
+    width: 500px;
+    height: 300px;
+    background-image: url(Print\ \ Matrícula\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Fim dos projetos */
+
+/*--------------------------------------------------------*/
+
+/* Início do rodapé(footer) */
+
+#footer{
+    width: 100%;
+    height: 105px;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#contato_footer{
+    font-size: 18px;
+}
+#lista_footer{
+    display: flex;
+    list-style: none;
+}
+.margem_redes_sociais{
+    margin-right: 25px;
+}
+#caixa_follow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* Fim do rodapé(footer) */
